@@ -1,0 +1,33 @@
+nome = 'Vinicius Luiz Silva Sibin'
+altura = 1.68
+peso = 97
+imc = peso / (altura * altura)
+
+#Nome da pessoa
+# Pesa x quilos
+# seu IMC é: 
+#sua classificação é :
+
+print('Nome: ' + nome)
+print('Altura: ' + str(altura) + 'm')
+print('Peso: ' + str(peso) + ' Kl')
+print('Seu IMC é: ' + str(imc))
+
+if imc < 18.5:
+    print('Sua classificação é: MAGREZA')
+elif imc < 24.9:
+    print('Sua classificação é: NORMAL')
+elif imc < 29.9:
+    print('Sua classificação é: SOBREPESO I')
+elif imc < 39.9:
+    print('Sua classificação é: OBESIDADE II')
+else:
+    print('Sua classificação é: OBESIDADE GRAVE III')
+
+# MENOR QUE 18,5	MAGREZA	0
+# ENTRE 18,5 E 24,9	NORMAL	0
+# ENTRE 25,0 E 29,9	SOBREPESO	I
+# ENTRE 30,0 E 39,9	OBESIDADE	II
+# MAIOR QUE 40,0	OBESIDADE GRAVE	III 
+
+
