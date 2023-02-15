@@ -9,9 +9,9 @@ imc = peso / (altura * altura)
 #sua classificação é :
 
 print('Nome: ' + nome)
-print('Altura: ' + str(altura) + 'm')
-print('Peso: ' + str(peso) + ' Kl')
-print('Seu IMC é: ' + str(imc))
+print('Altura: ',altura, 'm')
+print('Peso: ',peso, ' Kl')
+print('Seu IMC é: ',imc)
 
 if imc < 18.5:
     print('Sua classificação é: MAGREZA')
