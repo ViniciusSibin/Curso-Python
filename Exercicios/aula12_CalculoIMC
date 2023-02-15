@@ -1,6 +1,6 @@
-nome = 'Vinicius Luiz Silva Sibin'
-altura = 1.68
-peso = 97
+nome = input('Digite seu nome: ')
+altura = float(input('Digite sua altura: '))
+peso = float(input('Digite seu peso: '))
 imc = peso / (altura * altura)
 
 #Nome da pessoa
