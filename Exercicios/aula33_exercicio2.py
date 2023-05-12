@@ -3,26 +3,32 @@
 """
 entrada = input('Digite uma hora no formato 0-24: ')
 
+print('Método 1')
 if entrada.isdigit():
     hora = int(entrada)
     if hora <= 11:
         print('Bom dia, seja muito bem vindo(a) ao sistema.')
     elif hora <= 18:
         print('Boa tarde, seja muito bem vindo(a) ao sistema.')
-    else:
+    elif hora <=23:
         print('Boa noite, seja muito bem vindo(a) ao sistema.')
+    else:
+        print('Não foi digitado a hora como pedido!!!')
 else:
     print('Não foi digitado a hora como pedido!!!')
 
 # OU 
 
+print('\n\nMétodo 2')
 try:
     hora = int(entrada)
     if hora <= 11:
         print('Bom dia, seja muito bem vindo(a) ao sistema.')
     elif hora <= 18:
         print('Boa tarde, seja muito bem vindo(a) ao sistema.')
-    else:
+    elif hora <=23:
         print('Boa noite, seja muito bem vindo(a) ao sistema.')
+    else:
+        print('Não foi digitado a hora como pedido!!!')
 except:
     print('Não foi digitado a hora como pedido!!!')
