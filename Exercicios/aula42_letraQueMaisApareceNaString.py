@@ -8,7 +8,6 @@ qtd_caracteres_final = 0
 
 while i < len(frase):
     qtd_caracteres = frase.count(frase[i])
-    print(f'{qtd_caracteres=}',f'{frase[i]=}')
 
     if qtd_caracteres > qtd_caracteres_final:
         qtd_caracteres_final = qtd_caracteres
